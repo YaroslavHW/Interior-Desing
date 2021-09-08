@@ -1,0 +1,171 @@
+.menu{
+	background-color: #45015d ;
+	color: white;
+	width: 150px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 15px;
+	top: 0;
+}
+.menu a{
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	padding: 8px 16px;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+.menu a:hover{
+	cursor: pointer;
+	color: black;
+	background-color: white;
+}
+body{
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.main{
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+h1{
+	font-size: 64px;
+	font-weight: 400;
+}
+.images img{
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px;
+	opacity: 0.7;
+}
+
+.images img:hover{
+	opacity: 1;
+}
+h2{
+	color: #45015d;
+	font-size: 48px;
+	font-weight: 400;
+	margin: 10px 0;
+}
+hr{
+	border: 5px #45015d solid;
+	width: 100%;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+.members{
+	width: 30%;
+	display: inline-block;
+	padding: 8px;
+
+}
+.members img{
+	width: 100%;
+	border-radius: 10px;
+	filter: grayscale(30%);
+
+}
+.members .description{
+		background-color: #f1f1f1;
+		border-radius: 5px;
+		padding: 2px 16px 5px;
+}
+.members .position {
+	color:gray ;
+}
+.Packages{
+	display: inline-block;
+	width: 49%;
+	padding: 0 8px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.Packages ul{
+	background-color: #f1f1f1;
+	padding: 0 ;
+	margin: 0;
+	border-radius: 10px;
+}
+.Packages li{
+	list-style-type: none;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 10px;
+	padding: 16px 0;
+}
+.Packages .tariffname{
+	background-color: #45015d;
+	color: white;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.Packages .price{
+	font-weight: bold;
+	font-size: 30px;
+}
+.Packages .period{
+	opacity: 0.7;
+}
+.Packages .button{
+	background-color: #45015d;
+	color: white;
+	text-decoration: none;
+	padding: 15px 20px;
+	border-radius: 20px;
+	font-size: 16px;
+}
+.Packages .button:hover{
+	background-color: white;
+	color: #45015d;
+}
+.pro .tariffname{
+	background-color: #f44336;
+}
+.pro .button{
+	background-color: #f44336;
+}
+.pro .button:hover{
+	background-color: white;
+	color: #f44336;
+}
+.Contact input{
+	
+}
+.text{
+	font-weight: bold;
+}
+.Contact input{
+	width: 90%;
+	padding: 10px;
+	display: block;
+	font-weight: bold;
+}
+.pointer{
+	width: 90%;
+	background-color: #45015d;
+	padding: 10px;
+	color: white;
+	border-radius: 8px;
+	display: block;
+	box-sizing:	content-box;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid #45015d;
+}
+.by{
+	background-color: #f1f1f1;
+	padding: 50px;
+	text-align: right;
+	margin-top: 80px;
+}
+.pointer:hover{
+	background-color: white;
+	color: #45015d;
+}
